@@ -1,0 +1,444 @@
+.myheader {
+    display: flex;
+    height: 135px;
+    background-color: #ffffff;
+  }
+  
+  .myheader > p {
+    font-family: Lato;
+    font-size: 14px;
+    color: #4B5157;
+    line-height: 20px;
+  }
+  .free{
+    margin-left: 143px;
+    padding-top: 51px;
+    width: 100px;
+    height: 84px;
+  }
+   .NY{
+    white-space: nowrap;
+    width: 203px;
+    margin-left: 15px;
+    padding-top: 83px;
+  }
+  .Boston{
+    margin-left: 130px;
+    padding-top: 73px;
+    width: 184px;
+    height: 40px;
+  }
+  .date{
+    white-space: nowrap;
+    width: 195px;
+    margin-left: 186px;
+    padding-top: 83px;
+  }
+  .sun{
+    margin-left: 23px;
+    padding-top: 83px;
+    width: 20px;
+    height: 20px;
+  }
+   .temp{
+    width: 44px;
+    white-space: nowrap;
+    margin-left: 10px;
+    padding-top: 83px;
+  }
+  .play{
+    position: absolute;
+    width: 20px;
+    height:20px;
+    top: 60px;
+    left: 143px;
+  }
+  
+  
+   .menu{
+    height: 45px;
+    background-color:  #5D5FEF;
+  }
+  .menu ul{
+    list-style-type: none; 
+    overflow: hidden;
+    padding-top: 17px;
+    margin-left: 113px;
+    margin-right: 116px;
+    
+  }
+  .menu ul li{
+    display: inline;
+    white-space: nowrap;
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFFFF;
+    line-height: 20px;
+  }
+  .menu ul li:nth-child(odd) {
+    margin-right: 46px;
+  }
+  
+  .menu ul li:nth-child(even) {
+    margin-right: 47px; 
+  }
+  
+  .medium{
+    background: linear-gradient(to bottom, #5D5FEF 0, #5D5FEF 480px,  #EDEFF0 480px, #EDEFF0 1620px);
+    padding-top: 30px;
+  }
+  .medium ul{
+    display: flex;
+    list-style-type: none;
+    background-color:  #30363D;
+    width: 1140px;
+    height: 130px;
+    border-radius: 10px;
+    margin-left: 113px;
+    padding-top: 25px;
+    margin-right: 113px;
+  }
+  .medium ul li{
+    display: flex;
+    width:259px;
+    height: 75px;
+    margin-left: 25px;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border-right: 1px solid #4B5157;
+  }
+  .medium ul li:last-child{
+    border-right: none;
+  }
+  
+  .medium ul li img{
+    width: 65px;
+    height: 65px;
+    margin-left: 15px;
+    margin-right: 25px;
+  }
+  
+  .firsttable{
+    table-layout: fixed;
+    margin-left: 113px;
+    margin-top: 30px;
+    width: 1140px;
+    height: 570px;
+    border-spacing: 0;
+    border-radius: 10px; 
+    overflow: hidden;
+  }
+  .firsttable td{
+    background-color:  #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #D9DADB;
+    height: 98px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .firsttable td > p{
+    width: 213px;
+    margin-left: 25px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color:  #4B5157;
+  }
+  .tab11{
+    width: 263px;
+    height: 75px;
+  }
+  .tabl12{
+    background-color:  #F5F5F5;
+  }
+  
+  
+  .monttd{
+    position: relative;
+    width: 877px; 
+    height: 570px;
+    background-image: url('src/mount.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  .monttd > p{
+    position: absolute;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .monttd > a{
+    position: absolute;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    left: 55px;
+    top: 245px;
+    color:  #4592FF;
+  }
+  p.singlname{
+  position: absolute;
+  top: 285px;
+  left: 55px; 
+  width: 598px;
+  height: 100px;
+  font-family: Roboto Slab;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: left;
+  color: #FFFFFF;
+  }
+  
+  .mount{
+    width: 877px; 
+    height: 570px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .end{
+    margin-top: -287px; 
+    height: 1145px;
+    background-color: #D9DADB;
+  }
+  .wPlay{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 425px;
+  left: 223px; 
+  }
+  .Avatar{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 55px;
+  left: 55px;
+  }
+  .readmore{
+  position: absolute;
+  width: 138px;
+  height: 40px;
+  top: 430px;
+  left: 55px;
+  padding-left: 25px;
+  border-radius: 10px;
+  background-color: #4592FF;
+  font-family: Lato;
+  color:#FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  font-weight: bold;
+  border: none;
+  }
+  .arrow{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 98px;
+  }
+  
+  .articles{
+  width: 877px;
+  height: 770px;
+  table-layout: fixed;
+  margin-left: 84px;
+  border-collapse: separate; 
+  border-spacing: 29px 30px;
+  }
+  
+  .articles td{
+    position: relative;
+    border:none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  .articles td p{
+    position: absolute;
+    display: flex;
+  }
+  .car{
+    position:absolute;
+    width: 292px;
+    height: 299px;
+    top: 15px;
+    left: 263px;
+  }
+  .girl{
+  position:absolute;
+  width: 30px;
+  height: 30px;
+  top: 327px;
+  left: 35px;
+  }
+  .comment{
+  position:absolute;
+  width: 15px;
+  height: 15px;
+  top: 335px;
+  left: 479px;
+  }
+  .heart{
+  position:absolute;
+  width: 15px;
+  height: 15px;
+  top: 325px;
+  left: 175px;
+  }
+  .cat{
+    position:absolute;
+    width: 263px;
+    height: 275px;
+    top: -0px;
+  }
+   .tdtitle{
+  position:absolute;
+  font-family: Roboto Slab;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 25px;
+  color: #5D5FEF;
+  width: 213px;
+  height: 25px;
+  top: 25px;
+  left: 25px;
+  }
+   .tdtext{
+  position:absolute;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color: #4B5157;
+  width: 213px;
+  height: 60px;
+  top: 55px;
+  left: 25px;
+  }
+   .tdminitext{
+  position:absolute;
+  font-family: Lato;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  color: #939699;
+  width: 37px;
+  height: 15px;
+  top: 125px;
+  left: 25px;
+  }
+  .osobtd{
+    background-image: url('src/hand.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .popular{
+  position: absolute;
+  width: 66px;
+  height: 25px;
+  top: 18px;
+  left: 18px;
+  border-radius: 10px;
+  border: none;
+  background: #3DC47E;
+  font-family: Lato;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  }
+  
+  div .blacklist{
+  position: relative;
+  display: block;
+  list-style-type: none;
+  width: 263px;
+  height: 770px;
+  margin-left: 990px;
+  background-color: #6E99AE;
+  margin-top: -800px;
+  padding-top: 0px;
+  }
+  
+  div .blacklist li{
+    border-bottom: 1px solid #B4D1E0;
+    border-right: none;
+    margin-left: 0px;
+    /* border-width: 213px; */
+  }
+  div .blacklist li img{
+    position: absolute;
+    margin-left: 0px;
+  }
+  div .blacklist li p{
+    position: absolute;
+    margin-left: 0px;
+  }
+  div .blacklist .quote{
+    width: 40px;
+    height: 40px;
+    top: 95px;
+    left: 25px;
+    opacity: 0.75;
+  }
+  div .blacklist .boy{
+  width: 45px;
+  height: 45px;
+  top: 195px;
+  left: 35px;
+  }
+  div .blacklist .winter{
+  width: 45px;
+  height: 45px;
+  top: 415px;
+  left: 35px;
+  }
+  div .blacklist .half{
+  width: 45px;
+  height: 45px;
+  top: 635px;
+  left: 35px;
+  }
+  div .blacklist  .title{
+  display: flex;
+  font-family: Roboto Slab;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
+  }
+  div .blacklist .text{
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    width: 1366px;
+  }
+  
+  
+  
+  
+  
