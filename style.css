@@ -21,7 +21,7 @@ body {
     box-sizing: border-box;
 }
 .centered-block p {
-    font-size: 1em;
-    color: #333;
+    font-size: 18px;
+    color: #4B5157;
     text-align: center;
 }
