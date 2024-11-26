@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Lato, sans-serif;
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
@@ -22,7 +22,6 @@ body {
 }
 .centered-block p {
     font-size: 18px;
-    font: Lato;
     color: #4B5157;
     text-align: center;
 }
