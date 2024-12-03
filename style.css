@@ -363,7 +363,7 @@ margin: 0 auto;
 
 .comments-header {
   display: flex;
-  width: 750px;
+  width: 850px;
   max-width: 100%;
   gap: 20px;
   color: var(--Base-Grey-100, #262d33);
