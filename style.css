@@ -370,6 +370,7 @@ margin: 0 auto;
   color: var(--Base-Grey-100, #262d33);
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: 50px;
 }
 
 .comments-title {
