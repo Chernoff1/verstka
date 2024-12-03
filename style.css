@@ -418,6 +418,7 @@ margin: 0 auto;
 
 .submit-button {
   border-radius: 20px;
+  border: none;
   background: var(--Blue-Blue-75, #4592ff);
   display: flex;
   gap: 5px;
