@@ -32,10 +32,11 @@ margin: 0 auto;
 }
 
 .ramka{
- top:70px;
- left:115px;
  width:595px;
  height:130px;
+  margin-top: -65px;
+  margin-left: 80px;
+  margin-bottom: -10px;
 }
 
 .main-text {
