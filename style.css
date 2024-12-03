@@ -119,7 +119,8 @@ margin: 0 auto;
   width: 100%;
   flex-direction: column;
   align-items: start;
-  padding: 65px 70px 30px;
+  margin-left: 70px;
+/*   padding: 65px 70px 30px; */
 }
 
 .quote-container {
