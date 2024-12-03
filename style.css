@@ -358,8 +358,7 @@ margin: 0 auto;
   width: 750px;
   max-width: 100%;
   gap: 20px;
-  color: var(--Base-White, #fff);
-/*   --Base-Grey-100, #262d33 */
+  color: var(--Base-Grey-100, #262d33);
   flex-wrap: wrap;
   justify-content: space-between;
 }
