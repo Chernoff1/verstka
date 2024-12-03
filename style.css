@@ -172,7 +172,7 @@ margin: 0 auto;
 .author-name {
   color: var(--Base-Grey-85, #4b5157);
   font-feature-settings: "liga" off, "clig" off;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 2;
   margin-top: 10px;
 }
