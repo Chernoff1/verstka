@@ -231,7 +231,7 @@ margin: 0 auto;
   color: var(--Base-Grey-15, #d9dadb);
   width: 800px;
   max-width: 100%;
-  margin-left: 70px;
+  margin-left: 90px;
 /*   height: 1px; */
 /*   margin: 29px 2px 0 0px; */
 }
@@ -389,6 +389,7 @@ margin: 0 auto;
   font: 400 14px/1 Lato, sans-serif;
   background: var(--Base-White, #fff);
   margin-top: 35px;
+  
 }
 
 .comment-form {
