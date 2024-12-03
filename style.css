@@ -374,6 +374,7 @@ margin: 0 auto;
 .comments-title {
   font-feature-settings: "liga" off, "clig" off;
   font: 700 40px/1 Roboto Slab, sans-serif;
+  margin-left: 40px;
 }
 
 .add-comment {
