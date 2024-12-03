@@ -418,6 +418,7 @@ margin: 0 auto;
   font-feature-settings: "liga" off, "clig" off;
   margin-left: 96px;
   font: 700 20px/1 Roboto Slab, sans-serif;
+  margin-top: -30px;
 }
 
 .form-content {
