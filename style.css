@@ -1,3 +1,10 @@
+body {
+margin: 0;
+padding: 0;
+width: 1366px; /* Ширина страницы */
+height: 2636px; /* Высота страницы */
+margin: 0 auto;
+}
 .article-container {
   background: var(--Base-White, #fff);
   display: flex;
