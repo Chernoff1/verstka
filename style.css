@@ -426,7 +426,7 @@ margin: 0 auto;
   color: var(--Base-White, #fff);
   margin: 15px 0 0 96px;
   padding: 10px 22px;
-  font: 400 14px/1 Lato, sans-serif;
+/*   font: 400 14px/1 Lato, sans-serif; */
 }
 
 .submit-text {
