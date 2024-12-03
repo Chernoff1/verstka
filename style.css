@@ -386,6 +386,7 @@ margin: 0 auto;
   padding: 10px 20px;
   font: 400 14px/1 Lato, sans-serif;
   background: var(--Base-White, #fff);
+  margin-top: 35px;
 }
 
 .comment-form {
