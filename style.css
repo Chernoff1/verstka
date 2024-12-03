@@ -229,9 +229,9 @@ margin: 0 auto;
 
 .divider {
   color: var(--Base-Grey-15, #d9dadb);
-  width: 800px;
+  width: 810px;
   max-width: 100%;
-  margin-left: 90px;
+  margin-left: 70px;
 /*   height: 1px; */
 /*   margin: 29px 2px 0 0px; */
 }
@@ -370,7 +370,7 @@ margin: 0 auto;
   color: var(--Base-Grey-100, #262d33);
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 .comments-title {
@@ -401,6 +401,7 @@ margin: 0 auto;
   align-items: center;
   justify-content: center;
   padding: 30px 80px;
+  margin-left: -45px;
 }
 
 .form-container {
