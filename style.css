@@ -90,7 +90,7 @@ margin: 0 auto;
 .theme-description {
   color: var(--Base-Grey-85, #4b5157);
   font-feature-settings: "liga" off, "clig" off;
-  margin-top: 5px;
+  margin-top: -11px;
   font: 400 14px/20px Lato, sans-serif;
 }
 
