@@ -1,10 +1,11 @@
 body {
-margin: 0;
-padding: 0;
-width: 1366px; /* Ширина страницы */
-height: 2636px; /* Высота страницы */
-margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  width: 1366px; /* Ширина страницы */
+  height: 2636px; /* Высота страницы */
+  margin: 0 auto;
 }
+
 .article-container {
   background: var(--Base-White, #fff);
   display: flex;
@@ -15,9 +16,7 @@ margin: 0 auto;
 .article-content {
   background: var(--Base-White, #fff);
   display: flex;
-/*   width: 100%; */
   flex-direction: column;
-/*   align-items: center; */
   padding: 15px 70px;
 }
 
@@ -31,9 +30,9 @@ margin: 0 auto;
   display: flex;
 }
 
-.ramka{
- width:595px;
- height:130px;
+.ramka {
+  width: 595px;
+  height: 130px;
   margin-top: -65px;
   margin-left: 80px;
   margin-bottom: -10px;
@@ -128,11 +127,9 @@ margin: 0 auto;
   flex-direction: column;
   align-items: start;
   margin-left: 70px;
-/*   padding: 65px 70px 30px; */
 }
 
 .quote-container {
-/*   margin-left: 170px; */
   width: 621px;
   max-width: 100%;
 }
@@ -232,8 +229,6 @@ margin: 0 auto;
   width: 810px;
   max-width: 100%;
   margin-left: 70px;
-/*   height: 1px; */
-/*   margin: 29px 2px 0 0px; */
 }
 
 .social-section {
@@ -274,7 +269,6 @@ margin: 0 auto;
 .social-icon {
   aspect-ratio: 1;
   object-fit: contain;
-/*   width: 20px; */
 }
 
 .social-text {
@@ -354,7 +348,6 @@ margin: 0 auto;
 }
 
 .comments-section {
-/*   display: flex; */
   margin-top: 93px;
   width: 1000px;
   padding-left: 80px;
@@ -389,7 +382,6 @@ margin: 0 auto;
   font: 400 14px/1 Lato, sans-serif;
   background: var(--Base-White, #fff);
   margin-top: 35px;
-  
 }
 
 .comment-form {
@@ -441,7 +433,6 @@ margin: 0 auto;
   color: var(--Base-White, #fff);
   margin: 5px 0 0 16px;
   padding: 10px 22px;
-/*   font: 400 14px/1 Lato, sans-serif; */
 }
 
 .submit-text {
@@ -462,7 +453,7 @@ margin: 0 auto;
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   border: 0;
 }
 
@@ -471,123 +462,119 @@ margin: 0 auto;
     max-width: 100%;
     padding: 0 20px;
   }
-  
+
   .article-wrapper {
     max-width: 100%;
   }
-  
+
   .article-grid {
     flex-direction: column;
     align-items: stretch;
     gap: 0;
   }
-  
+
   .main-text {
     width: 100%;
   }
-  
+
   .article-text {
     max-width: 100%;
     margin-top: 40px;
   }
-  
+
   .sidebar {
     width: 100%;
   }
-  
+
   .sidebar-content {
     margin-top: 40px;
   }
-  
+
   .quote-section {
     max-width: 100%;
     padding: 0 20px;
   }
-  
+
   .quote-grid {
     flex-direction: column;
     align-items: stretch;
     gap: 0;
   }
-  
+
   .quote-text {
     width: 100%;
   }
-  
+
   .quote-content {
     max-width: 100%;
     margin-top: 30px;
   }
-  
+
   .author-column {
     width: 100%;
   }
-  
+
   .author-info {
     margin-top: 30px;
   }
-  
+
   .article-paragraph {
     max-width: 100%;
     padding: 0 20px;
   }
-  
+
   .tag-section {
     max-width: 100%;
     padding: 0 20px;
   }
-  
+
   .social-section {
     max-width: 100%;
     padding: 0 20px;
   }
-  
+
   .related-articles {
     max-width: 100%;
     margin-top: 40px;
     padding: 0 20px;
   }
-  
+
   .related-content {
     max-width: 100%;
   }
-  
+
   .related-grid {
     flex-direction: column;
     align-items: stretch;
     gap: 0;
   }
-  
+
   .comments-section {
     max-width: 100%;
     padding-left: 20px;
     margin-top: 40px;
   }
-  
+
   .comment-form {
     max-width: 100%;
     padding: 0 20px;
   }
-  
+
   .form-container {
     padding: 0 20px;
   }
-  
+
   .form-title {
     margin-left: 10px;
   }
-  
+
   .submit-button {
     margin-left: 10px;
     padding-left: 20px;
   }
 }
 
-
-
-
-
-featured-section {
+.featured-section {
   --primary-text: #1a1a1a;
   --secondary-text: #666666;
   --hover-color: #0056b3;
