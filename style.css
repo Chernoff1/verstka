@@ -432,10 +432,28 @@ body {
   margin-left: -45px;
 } */
 .rectangle {
+    position: relative;
     width: 1366px;
     height: 425px;
     background-color: #cecece;
     /* border-radius: 10px; */
+}
+
+.photo1 {
+  position: absolute; /* Абсолютное позиционирование для точного размещения */
+  top: 60px; /* Отступ сверху */
+  left: 113px; /* Отступ слева */
+  width: 263px; /* Ширина фотографии */
+  height: 180px; /* Высота фотографии */
+  border-radius: 10px; /* Закругление границ */
+}
+.photo2 {
+  position: absolute; /* Абсолютное позиционирование для точного размещения */
+  top: 60px; /* Отступ сверху */
+  left: 405px; /* Отступ слева */
+  width: 263px; /* Ширина фотографии */
+  height: 180px; /* Высота фотографии */
+  border-radius: 10px; /* Закругление границ */
 }
 
 .form-title {
