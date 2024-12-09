@@ -482,7 +482,7 @@ body {
   justify-content: left; /* Горизонтальное центрирование */
   align-items: left; /* Вертикальное центрирование */
   font-family: 'Roboto Slab', serif; /* Шрифт Roboto Slab */
-  font-weight: bold; /* normal */
+  font-weight: 900; /* normal */
   letter-spacing: 0.0px;
   line-height: 25px;
   font-size: 16px; /* Размер шрифта */
