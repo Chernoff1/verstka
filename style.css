@@ -408,7 +408,7 @@ body {
   padding: 75px 35px;
 }
 
-/* .form-block {
+.form-block {
   border-radius: 10px;
   background-color: rgba(245, 245, 245, 1);
   display: flex;
@@ -430,13 +430,6 @@ body {
   justify-content: center;
   padding: 30px 80px;
   margin-left: -45px;
-} */
-.rectangle {
-  position: absolute;
-  width: 1366px;
-  height: 425px;
-  background-color: #cecece;
-  border-radius: 10px;
 }
 
 .form-title {
