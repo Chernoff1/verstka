@@ -413,7 +413,7 @@ body {
   background-color: rgba(245, 245, 245, 1);
   display: flex;
   width: 1366px;
-  heigh: 425px;
+  height: 425px;
   max-width: 100%;
   flex-direction: column;
   align-items: start;
@@ -430,6 +430,7 @@ body {
   justify-content: center;
   padding: 30px 80px;
   margin-left: -45px;
+}
 
 .form-title {
   color: var(--Base-Grey-100, #262d33);
