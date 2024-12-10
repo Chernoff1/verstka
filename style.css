@@ -156,11 +156,11 @@ body {
 }
 
 .quote-icon {
-  position: absolute; /* Абсолютное позиционирование для изображения */
-  top: 10px; /* Отступ сверху */
-  left: 10px; /* Отступ слева */
-  width: 70px; /* Ширина изображения */
-  height: 70px; /* Высота изображения */
+  position: absolute;
+  top: -0px;
+  left: -20px;
+  width: 70px;
+  height: 70px;
   z-index: -1; /* Помещаем изображение за текстом */
 }
 
