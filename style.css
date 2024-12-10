@@ -644,6 +644,70 @@ body {
   color: #939699; /* Цвет текста */
 }
 
+.textcom1{
+  position: absolute;
+  top: 320px; /* Отступ сверху */
+  left: 194px; /* Отступ слева */
+  width: 14px; /* Ширина рамки */
+  height: 15; /* Высота рамки */
+  display: flex; /* Используем flexbox для центрирования текста */
+  justify-content: left; /* Горизонтальное центрирование */
+  align-items: left; /* Вертикальное центрирование */
+  font-family: 'Roboto Slab', serif; /* Шрифт Roboto Slab */
+  font-weight: 900; /* normal */
+  letter-spacing: 0.0px;
+  line-height: 15px;
+  font-size: 12px; /* Размер шрифта */
+  color: #939699; /* Цвет текста */
+}
+.textcom2{
+  position: absolute;
+  top: 320px; /* Отступ сверху */
+  left: 486px; /* Отступ слева */
+  width: 21px; /* Ширина рамки */
+  height: 15; /* Высота рамки */
+  display: flex; /* Используем flexbox для центрирования текста */
+  justify-content: left; /* Горизонтальное центрирование */
+  align-items: left; /* Вертикальное центрирование */
+  font-family: 'Roboto Slab', serif; /* Шрифт Roboto Slab */
+  font-weight: 900; /* normal */
+  letter-spacing: 0.0px;
+  line-height: 15px;
+  font-size: 12px; /* Размер шрифта */
+  color: #939699; /* Цвет текста */
+}
+.textcom3{
+  position: absolute;
+  top: 320px; /* Отступ сверху */
+  left: 769px; /* Отступ слева */
+  width: 14px; /* Ширина рамки */
+  height: 15; /* Высота рамки */
+  display: flex; /* Используем flexbox для центрирования текста */
+  justify-content: left; /* Горизонтальное центрирование */
+  align-items: left; /* Вертикальное центрирование */
+  font-family: 'Roboto Slab', serif; /* Шрифт Roboto Slab */
+  font-weight: 900; /* normal */
+  letter-spacing: 0.0px;
+  line-height: 15px;
+  font-size: 12px; /* Размер шрифта */
+  color: #939699; /* Цвет текста */
+}
+.textcom4{
+  position: absolute;
+  top: 320px; /* Отступ сверху */
+  left: 1071px; /* Отступ слева */
+  width: 21px; /* Ширина рамки */
+  height: 15; /* Высота рамки */
+  display: flex; /* Используем flexbox для центрирования текста */
+  justify-content: left; /* Горизонтальное центрирование */
+  align-items: left; /* Вертикальное центрирование */
+  font-family: 'Lato', serif; /* Шрифт Roboto Slab */
+  font-weight: 900; /* normal */
+  letter-spacing: 0.0px;
+  line-height: 15px;
+  font-size: 12px; /* Размер шрифта */
+  color: #939699; /* Цвет текста */
+}
 
 .form-title {
   color: var(--Base-Grey-100, #262d33);
