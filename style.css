@@ -408,29 +408,6 @@ body {
   padding: 75px 35px;
 }
 
-/* .form-block {
-  border-radius: 10px;
-  background-color: rgba(245, 245, 245, 1);
-  display: flex;
-  width: 1366px;
-  height: 425px;
-  max-width: 100%;
-  flex-direction: column;
-  align-items: start;
-  fill: var(--Base-Grey-05, #f5f5f5);
-  padding: 75px 35px;
-}
-.block-form {
-  background: var(--Base-White, #fff);
-  align-self: stretch;
-  display: flex;
-  margin-top: 14px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 30px 80px;
-  margin-left: -45px;
-} */
 .rectangle {
     position: relative;
     width: 1366px;
@@ -602,6 +579,71 @@ body {
   font-size: 16px; /* Размер шрифта */
   color: #262D33; /* Цвет текста */
 }
+.texteye1{
+  position: absolute;
+  top: 320px; /* Отступ сверху */
+  left: 133px; /* Отступ слева */
+  width: 31px; /* Ширина рамки */
+  height: 15; /* Высота рамки */
+  display: flex; /* Используем flexbox для центрирования текста */
+  justify-content: left; /* Горизонтальное центрирование */
+  align-items: left; /* Вертикальное центрирование */
+  font-family: 'Roboto Slab', serif; /* Шрифт Roboto Slab */
+  font-weight: 900; /* normal */
+  letter-spacing: 0.0px;
+  line-height: 15px;
+  font-size: 12px; /* Размер шрифта */
+  color: #939699; /* Цвет текста */
+}
+.texteye2{
+  position: absolute;
+  top: 320px; /* Отступ сверху */
+  left: 425px; /* Отступ слева */
+  width: 31px; /* Ширина рамки */
+  height: 15; /* Высота рамки */
+  display: flex; /* Используем flexbox для центрирования текста */
+  justify-content: left; /* Горизонтальное центрирование */
+  align-items: left; /* Вертикальное центрирование */
+  font-family: 'Roboto Slab', serif; /* Шрифт Roboto Slab */
+  font-weight: 900; /* normal */
+  letter-spacing: 0.0px;
+  line-height: 15px;
+  font-size: 12px; /* Размер шрифта */
+  color: #939699; /* Цвет текста */
+}
+.texteye3{
+  position: absolute;
+  top: 320px; /* Отступ сверху */
+  left: 718px; /* Отступ слева */
+  width: 21px; /* Ширина рамки */
+  height: 15; /* Высота рамки */
+  display: flex; /* Используем flexbox для центрирования текста */
+  justify-content: left; /* Горизонтальное центрирование */
+  align-items: left; /* Вертикальное центрирование */
+  font-family: 'Roboto Slab', serif; /* Шрифт Roboto Slab */
+  font-weight: 900; /* normal */
+  letter-spacing: 0.0px;
+  line-height: 15px;
+  font-size: 12px; /* Размер шрифта */
+  color: #939699; /* Цвет текста */
+}
+.texteye4{
+  position: absolute;
+  top: 320px; /* Отступ сверху */
+  left: 1010px; /* Отступ слева */
+  width: 31px; /* Ширина рамки */
+  height: 15; /* Высота рамки */
+  display: flex; /* Используем flexbox для центрирования текста */
+  justify-content: left; /* Горизонтальное центрирование */
+  align-items: left; /* Вертикальное центрирование */
+  font-family: 'Lato', serif; /* Шрифт Roboto Slab */
+  font-weight: 900; /* normal */
+  letter-spacing: 0.0px;
+  line-height: 15px;
+  font-size: 12px; /* Размер шрифта */
+  color: #939699; /* Цвет текста */
+}
+
 
 .form-title {
   color: var(--Base-Grey-100, #262d33);
