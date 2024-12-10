@@ -147,11 +147,19 @@ body {
 }
 
 .quote-content {
+  position: relative;
   color: var(--Base-Grey-100, #262d33);
   font-feature-settings: "liga" off, "clig" off;
   font: 700 25px/30px Roboto Slab, -apple-system, Roboto, Helvetica, sans-serif;
 }
 
+.quoteimg{
+  position: absolute;
+  top: -20px; /* Отступ сверху */
+  left: -20px; /* Отступ слева */
+  width: 70px; /* Ширина фотографии */
+  height: 70px; /* Высота фотографии */
+}
 .author-column {
   display: flex;
   flex-direction: column;
