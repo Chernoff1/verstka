@@ -149,7 +149,7 @@ body {
 
 .quote-content {
   position: relative; /* Относительное позиционирование для текста */
-  z-index: 1; /* Помещаем текст на передний план */
+  z-index: 2; /* Помещаем текст на передний план */
   color: var(--Base-Grey-100, #262d33);
   font-feature-settings: "liga" off, "clig" off;
   font: 700 25px/30px Roboto Slab, -apple-system, Roboto, Helvetica, sans-serif;
@@ -161,7 +161,7 @@ body {
   left: -20px;
   width: 70px;
   height: 70px;
-  z-index: -1; /* Помещаем изображение за текстом */
+  z-index: 1; /* Помещаем изображение за текстом */
 }
 
 .author-column {
