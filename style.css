@@ -155,7 +155,7 @@ body {
 
 .quoteimg{
   position: absolute;
-  top: -20px; /* Отступ сверху */
+  top: -200px; /* Отступ сверху */
   left: -20px; /* Отступ слева */
   width: 70px; /* Ширина фотографии */
   height: 70px; /* Высота фотографии */
